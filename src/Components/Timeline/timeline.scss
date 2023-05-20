@@ -1,0 +1,87 @@
+@import '../../Sass/mixins.scss';
+@import '../../Sass/variables';
+
+.history-tl-container {
+    font-family: monospace;
+    margin: auto;
+    display: block;
+    position: relative;
+    line-height: 1rem;
+    @include extra_small_devices{
+        padding: 0 15px;
+
+    }
+
+    ul.tl {
+        margin: 20px 0;
+        margin-bottom: -20px;
+        padding: 0;
+        display: inline-block;
+
+        li {
+            list-style: none;
+            margin: auto;
+            margin-left: 120px;
+            min-height: 80px;
+            /*background: rgba(255,255,0,0.1);*/
+            border-left: 1px dashed #86D6FF;
+            padding: 0 0 20px 25px;
+            position: relative;
+
+            &:last-child {
+
+                border-left: 0;
+
+            }
+
+            
+            @include extra_small_devices {
+                margin-left: 90px;
+
+            }
+
+        }
+
+    }
+
+}
+
+
+
+.history-tl-container ul.tl li::before {
+    position: absolute;
+    left: -10px;
+    top: -5px;
+    content: " ";
+    border: 8px solid $primary-color;
+    border-radius: 500%;
+    background: $secondary-color;
+    height: 20px;
+    width: 20px;
+    transition: all 500ms ease-in-out;
+
+}
+
+.history-tl-container ul.tl li:hover::before {
+    border-color: $secondary-color;
+    transition: all 1000ms ease-in-out;
+}
+
+
+ul.tl li .item-detail {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    padding-top: 3px;
+    font-weight: 500;
+
+}
+
+ul.tl li .timestamp {
+    color: $text-color;
+    position: absolute;
+    width: 100px;
+    left: -53%;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 500;
+}

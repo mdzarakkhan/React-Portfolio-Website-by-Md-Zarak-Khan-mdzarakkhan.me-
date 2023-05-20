@@ -1,0 +1,161 @@
+@import '../../Sass/variables';
+@import '../../Sass/mixins.scss';
+
+
+
+#side_header {
+    width: 19rem;
+    height: 100vh;
+    position: fixed;
+    background-color: #EEEFEF;
+    border-radius: 0px 30px 30px 0px;
+    overflow-y: auto;
+
+    @include extra_small_devices {
+        height: 60px;
+        width: 100%;
+        background-color: none;
+        position: fixed;
+        overflow: hidden;
+        z-index: 1;
+        border-radius: 0px;
+
+    }
+
+    .profile {
+        .cover-pic {
+            background-image: url('../../assets/Images/cover_pic.jpg');
+            background-size: cover;
+            position: relative;
+            top: -50px;
+        }
+
+        .dp {
+            width: 50%;
+            border-radius: 50%;
+            border: 3px solid $secondary-color;
+            padding: 2px;
+            position: inherit;
+            top: 60px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px;
+        }
+
+        @include extra_small_devices {
+            display: none;
+        }
+
+    }
+
+
+
+
+    i {
+        padding-right: 15px;
+
+        @include extra_small_devices {
+            font-size: 19px;
+        }
+    }
+
+    .active {
+        background-color: $secondary-color;
+        color: white !important;
+        border-radius: 0px 20px 20px 0px;
+        font-weight: 600 !important;
+        letter-spacing: 1.5px;
+        transition: 0.3s ease-in-out;
+
+        @include extra_small_devices {
+            border-radius: 100px;
+            transition: 0.5s ease-in-out;
+
+        }
+    }
+
+
+    .profile-body p {
+        font-size: 14px;
+        margin-top: -4px;
+
+
+
+
+    }
+
+    .social-hr {
+        @include extra_small_devices {
+            display: none !important;
+        }
+    }
+
+    .navbar {
+        margin-top: 0.8rem;
+
+        @include extra_small_devices {
+            justify-content: center;
+            margin-top: 0rem;
+
+        }
+
+        .navbar-nav {
+            @include extra_small_devices {
+                display: flex;
+                flex-direction: row;
+                padding: 0px;
+                margin: 0px;
+            }
+
+
+            .nav-item {
+                width: 17rem;
+                position: relative;
+
+                @include extra_small_devices {
+                    display: flex;
+                    justify-content: center;
+                    float: right;
+                    padding: 0px;
+                    width: 4rem;
+
+
+
+                }
+
+
+
+
+                .nav-link {
+                    padding-left: 1rem;
+                    color: $text-color;
+                    display: block;
+                    font-weight: 600;
+
+                    @include extra_small_devices {
+                        .link-name {
+                            display: none;
+                        }
+                    }
+
+
+
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    @include extra_small_devices {
+        .hr-down {
+            height: 0px;
+        }
+    }
+
+
+}

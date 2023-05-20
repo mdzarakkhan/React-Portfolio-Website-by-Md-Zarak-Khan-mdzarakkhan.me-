@@ -1,0 +1,17 @@
+@import '../../Sass/variables.scss';
+@import '../../Sass/mixins.scss';
+
+
+
+
+.form-control {
+    border-radius: 15px;
+    background-color: $bg-color;
+
+}
+
+::placeholder {
+    font-size: 14px;
+    position: relative;
+    left: 4px;
+}

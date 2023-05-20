@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;800;900&display=swap');
+@import './Sass/mixins.scss';
+@import '../src/Sass/variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+html {
+    background-color: $bg-color;
+}
+
+
+
+
+#content-body {
+    width: calc(100% - 19rem);
+    float: right;
+    background-color: $bg-color;
+    overflow-y: auto;
+    max-height: auto;
+
+
+    @include extra_small_devices {
+        width: 100%;
+        margin-top: 3.5rem;
+    }
+
+
+    .content-wrapper {
+        height: auto;
+        border-radius: 15px;
+        margin: 20px;
+        padding: 1rem;
+        padding-bottom: 30px;
+        background-color: $wrapper-color;
+
+        @include extra_small_devices {
+            margin: 1px;
+            margin-top: 1rem;
+        }
+
+    }
+
+    .profile-wrapper {
+        height: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 5px;
+        background-color: $bio-wrapper;
+
+    }
+
+}
+
+.data {
+    padding: 15px 15px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+    margin-bottom: -15px;
+}
+
+
+.primary-button {
+    background-color: $primary-color;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: $text-color;
+    font-weight: 800;
+    font-size: 13px;
+
+}
+
+.primary-button i {
+    padding-left: 5px;
+}
+
+p {
+    color: $text-color;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Red Hat Display', sans-serif;
+    color: $text-color;
+    font-weight: 800;
+}
+
+.font-bold {
+    font-weight: 900;
+}
+
+a {
+    color: $secondary-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $text-color;
+    }
+}
