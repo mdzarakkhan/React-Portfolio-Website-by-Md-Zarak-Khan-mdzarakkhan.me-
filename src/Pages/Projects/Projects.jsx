@@ -8,6 +8,7 @@ import mdzarakkhan2 from '../../assets/Images/websiteDesigns/mdzarakkhan2.webp';
 import giosyt from '../../assets/Images/websiteDesigns/giosyt.in.webp';
 import nurangi from '../../assets/Images/websiteDesigns/nurangi.com.webp';
 import dreamacake from '../../assets/Images/websiteDesigns/dreamacake.com.webp';
+import momnme from '../../assets/Images/websiteDesigns/momnme.pk.webp';
 
 
 const Projects = () => {
@@ -31,30 +32,33 @@ const Projects = () => {
 
                                 <div className="row ">
                                     <div className="col-lg-4 col-md-12  mb-4 mb-lg-0 ">
-                                        <img
+                                        <a href="https://overbrains.com"> <img
                                             src={overbrains}
                                             className="w-100 shadow-1-strong rounded mb-4"
                                             alt="agrintool"
 
                                         />
+                                        </a>
                                         <h6 className='text-center'>overbrains.com <span style={{ fontSize: '10px', color: "#4C9196" }}>(Business)</span></h6>
                                     </div>
 
                                     <div className="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
-                                        <img
+                                        <a href="https://agrindtool.com"><img
                                             src={agrindtool}
                                             className="w-100 shadow-1-strong rounded mb-4"
                                             alt="agrintool"
                                         />
+                                        </a>
                                         <h6 className='text-center'>agrindtool.com <span style={{ fontSize: '10px', color: "#4C9196" }}>(eCommerce)</span></h6>
                                     </div>
 
                                     <div className="col-lg-4 mb-4 mb-lg-0">
-                                        <img
+                                        <a href="https://davidleesbtq.com"><img
                                             src={davidleesbtq}
                                             className="w-100 shadow-1-strong rounded mb-4"
                                             alt="davidleesbtq.com"
                                         />
+                                        </a>
                                         <h6 className='text-center'>davidleesbtq.com <span style={{ fontSize: '10px', color: "#4C9196" }}>(eCommerce)</span></h6>
                                     </div>
 
@@ -86,20 +90,33 @@ const Projects = () => {
                                     </div>
 
                                     <div className="col-lg-4 mt-4 mb-4 mb-lg-0">
-                                        <img
+                                        <a href="http://nurangi.com/"><img
                                             src={nurangi}
                                             className="w-100 shadow-1-strong rounded mb-4"
                                             alt="giosyt.in"
                                         />
+                                        </a>
                                         <h6 className='text-center'>nurangi.com <span style={{ fontSize: '10px', color: "#4C9196" }}>(eCommerce Multi Vendor)</span></h6>
                                     </div>
 
                                     <div className="col-lg-4 mt-4 mb-4 mb-lg-0">
-                                        <img
+                                        <a href="https://momnme.pk">
+                                            <img
+                                                src={momnme}
+                                                className="w-100 shadow-1-strong rounded mb-4"
+                                                alt="giosyt.in"
+                                            />
+                                        </a>
+                                        <h6 className='text-center'>momnme.pk <span style={{ fontSize: '10px', color: "#4C9196" }}>(eCommerce)</span></h6>
+                                    </div>
+
+                                    <div className="col-lg-4 mt-4 mb-4 mb-lg-0">
+                                        <a href="http://dreamacake.com/"><img
                                             src={dreamacake}
                                             className="w-100 shadow-1-strong rounded mb-4"
                                             alt="giosyt.in"
                                         />
+                                        </a>
                                         <h6 className='text-center'>dreamacake.com <span style={{ fontSize: '10px', color: "#4C9196" }}>(eCommerce)</span></h6>
                                     </div>
 

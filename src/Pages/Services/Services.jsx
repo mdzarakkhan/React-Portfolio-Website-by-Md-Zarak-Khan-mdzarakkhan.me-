@@ -10,7 +10,7 @@ const Services = () => {
                 exit={{ opacity: 0 }}
             >
                 <div className="container">
-                    <div className="row content-wrapper">
+                    <div className="row content-wrapper ">
                         <h3><span style={{ color: "#4C9196" }}>Ser</span>vices</h3>
                         <div className="col-lg-4 col-md-6">
                             <Card
@@ -28,7 +28,7 @@ const Services = () => {
                             />
                         </div>
 
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6 ">
                             <Card
                                 icon={<i className="fa-solid fa-gauge"></i>}
                                 title='Speed Optimization'
