@@ -84,4 +84,7 @@ ul.tl li .timestamp {
     text-align: right;
     font-size: 12px;
     font-weight: 500;
+    @include extra_small_devices{
+        margin-left: -20px;
+    }
 }
