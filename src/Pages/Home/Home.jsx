@@ -209,6 +209,9 @@ const Home = () => {
                                 <div className="badge primary-button">GIT
                                     <i className="fa-brands fa-git-alt"></i>
                                 </div>
+                                <div className="badge primary-button">GitHub
+                                    <i className="fa-brands fa-github"></i>
+                                </div>
                                 <div className="badge primary-button">WORDPRESS
                                     <i class="fa-brands fa-wordpress"></i>
                                 </div>
