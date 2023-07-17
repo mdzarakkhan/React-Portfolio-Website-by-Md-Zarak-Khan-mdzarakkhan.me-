@@ -5,11 +5,19 @@ const Social = () => {
     return (
         <>
             <div className="social-buttons d-flex justify-content-center">
+                
                 <a href="https://web.facebook.com/mdzarakkhan1/" className="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
-                    <span className="social-button__inner">
-                        <i className="fab fa-facebook-f"></i>
+                    <span className="social-button__inner" alt="Md Zarak Khan on Facebook">
+                        <i className="fab fa-facebook-f" ></i>
                     </span>
                 </a>
+
+                <a href="https://www.instagram.com/Mdzarakkhan/" className="social-buttons__button social-button social-button--instagram" aria-label="Facebook">
+                    <span className="social-button__inner" alt="Md Zarak Khan on Facebook">
+                        <i class="fa-brands fa-instagram"></i>
+                    </span>
+                </a>
+
                 <a href="https://www.linkedin.com/in/mdzarakkhan/" className="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
                     <span className="social-button__inner">
                         <i className="fab fa-linkedin-in"></i>

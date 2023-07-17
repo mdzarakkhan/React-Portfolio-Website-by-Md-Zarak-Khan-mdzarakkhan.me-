@@ -98,6 +98,14 @@
         background: #3b5999;
     }
 
+    .social-button--instagram {
+        color: #DE446C;
+    }
+
+    .social-button--instagram::after {
+        background: #DE446C;
+    }
+
     .social-button--linkedin {
         color: #0077b5;
     }

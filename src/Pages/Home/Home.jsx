@@ -5,7 +5,6 @@ import profile_pic from '../../assets/Images/profile.jpg';
 import { MobileSocial } from "../../Components/ExportComponents";
 import { motion } from "framer-motion";
 
-
 const Home = () => {
 
 

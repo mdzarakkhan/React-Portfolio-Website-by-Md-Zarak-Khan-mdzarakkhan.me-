@@ -10,6 +10,13 @@ const MobileSocial = () => {
                       <i className="fab fa-facebook-f"></i>
                   </span>
               </a>
+
+              <a href="https://www.instagram.com/Mdzarakkhan/" className="social-buttons__button social-button social-button--instagram" aria-label="Facebook">
+                  <span className="social-button__inner" alt="Md Zarak Khan on Facebook">
+                      <i class="fa-brands fa-instagram"></i>
+                  </span>
+              </a>
+              
               <a href="https://www.linkedin.com/in/mdzarakkhan/" className="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
                   <span className="social-button__inner">
                       <i className="fab fa-linkedin-in"></i>
