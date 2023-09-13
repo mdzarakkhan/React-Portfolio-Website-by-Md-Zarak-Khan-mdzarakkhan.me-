@@ -219,6 +219,7 @@ const Home = () => {
                                 </div>
                                 <div className="badge primary-button">ADOBE PHOTOSHOP</div>
                             </div>
+                            
 
 
                         </div>

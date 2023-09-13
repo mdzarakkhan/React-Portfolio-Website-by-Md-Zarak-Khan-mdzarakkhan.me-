@@ -24,7 +24,7 @@ const Card = (props) => {
                             <a href="https://wa.me/+923149011559">
                                 <button className='btn primary-button'>Chat on Whatsapp</button>
                             </a>
-                        </div>           
+                        </div>
                     </div>
                 </div>
             </div>

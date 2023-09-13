@@ -1,3 +1,14 @@
+// importing method
+// need to import this file in scss files not jsx file below is the importing method
+// @import '../../Sass/mixins.scss';
+//using method is here
+// .content-wrapper {
+    // @include extra_small_devices {
+    //     .intro {
+    //         margin-top: 1.5rem;
+    //     }
+    // }
+
 // Extra small devices (Like phones, 640px and down)
 @mixin extra_small_devices {
     @media only screen and (max-width: 640px) {

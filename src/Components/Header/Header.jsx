@@ -63,12 +63,13 @@ const Header = () => {
                 {/* navbar start */}
                 <div className="navbar">
                     <ul className="navbar-nav">
+
                         <li className="nav-item">
-
-                            <NavLink className="nav-link" aria-current="page" to="/">
+                            <NavLink className="nav-link" to="/">
                                 <i className="fa-solid fa-user "></i> <span className="link-name">Profile</span></NavLink>
-
                         </li>
+                        
+
                         <li className="nav-item">
                             <NavLink className="nav-link " to="/education">
                                 <i className="fa-solid fa-graduation-cap"></i><span className="link-name">Education</span></NavLink>
@@ -97,10 +98,6 @@ const Header = () => {
                     </ul>
                 </div>
                 {/* navbar end */}
-
-
-
-
             </div>
         </>
     );

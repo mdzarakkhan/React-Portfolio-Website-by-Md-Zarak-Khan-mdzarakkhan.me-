@@ -36,10 +36,12 @@ const Contact = () => {
                     <div className="row content-wrapper ">
                         <div className="col-lg-12 col-md-12 mx-auto">
                             <h3><span style={{ color: "#4C9196" }}>Send</span> Email</h3>
+                            
                             <div className='row'>
                                 <div className="col-lg-6 col-md-12 col-12 mt-5">
                                     <img className='img-fluid' src={contactmd} alt="contact" />
                                 </div>
+                                
                                 <div className='col-lg-6 col-md-12 col-12'>
                                     <div className="profile-wrapper">
 
@@ -66,11 +68,10 @@ const Contact = () => {
                                                 <i class="fa-regular fa-paper-plane"></i>
                                             </button>
                                             <ReCAPTCHA style={{marginTop:'3px'}}
-                                                sitekey="6LdpyuslAAAAAGbL3V_x1DMwpTN31KOwWK7gOH2o"
+                                                sitekey="6Lc8aHYnAAAAAEmbcLhc7rYzoF6qqO-sfAvlp6hV"
                                                 onChange={onChange}
                                             />
                                         </form>
-
                                         
                                     </div>
                                 </div>
